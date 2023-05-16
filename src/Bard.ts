@@ -29,7 +29,7 @@ export default class BardAPI {
         .then(res => {
             [this.previousQuery.c, this.previousQuery.r] = res[1];
             this.previousQuery.rc = res[4][0][0];
-            return res[0];
+            return res[0][0];
         }) as string[];
     }
 }
