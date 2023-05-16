@@ -14,7 +14,8 @@
   "scripts": {
     "build": "tsc",
     "start": "npm run build && node dist/terminal",
-    "dev": "nodemon -w src -e ts --exec \"npm start\""
+    "dev": "nodemon -w src -e ts --exec \"npm start\"",
+    "postinstall": "npm run build"
   },
   "keywords": [],
   "author": "Brian Vo",

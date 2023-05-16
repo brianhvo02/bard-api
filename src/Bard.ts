@@ -30,11 +30,6 @@ export default class BardAPI {
             [this.previousQuery.c, this.previousQuery.r] = res[1];
             this.previousQuery.rc = res[4][0][0];
             return res[0];
-            // return res[4].reduce(
-            //     (obj: { [key: string]: string }, res: string | string[]) => 
-            //         ({ ...obj, [res[0]]: res[1][0] }),
-            //     {}
-            // )
         }) as string[];
     }
 }
