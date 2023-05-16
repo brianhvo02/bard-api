@@ -5,6 +5,9 @@
     "nodemon": "^2.0.22",
     "typescript": "^5.0.4"
   },
+  "bin": {
+    "bard": "./dist/terminal.js"
+  },
   "name": "bard-api",
   "version": "1.0.0",
   "main": "dist/index.js",
@@ -16,5 +19,12 @@
   "keywords": [],
   "author": "Brian Vo",
   "license": "GPL-3.0",
-  "description": "An unofficial wrapper written to provide access to Google's Bard chatbot."
+  "description": "An unofficial wrapper written to provide access to Google's Bard chatbot.",
+  "homepage": "https://github.com/brianhvo02/bard-api#readme",
+  "url" : "https://github.com/brianhvo02/bard-api/issues",
+  "email" : "me@brianhuyvo.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brianhvo02/bard-api.git"
+  }
 }
