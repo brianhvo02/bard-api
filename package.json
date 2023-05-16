@@ -8,7 +8,7 @@
   "bin": {
     "bard": "./dist/terminal.js"
   },
-  "name": "bard-api",
+  "name": "bard-node",
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
