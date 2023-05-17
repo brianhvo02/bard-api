@@ -24,6 +24,6 @@ const BardTerminal = async () => {
     }
 };
 
-if (require.main === module) BardTerminal();
+BardTerminal();
 
 export default BardTerminal;

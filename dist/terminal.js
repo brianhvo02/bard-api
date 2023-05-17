@@ -57,6 +57,5 @@ const BardTerminal = () => __awaiter(void 0, void 0, void 0, function* () {
         yield BardTerminal();
     }
 });
-if (require.main === module)
-    BardTerminal();
+BardTerminal();
 exports.default = BardTerminal;

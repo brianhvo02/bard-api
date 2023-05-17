@@ -7,5 +7,5 @@ export default class BardAPI {
         rc: string;
     };
     constructor(config: Configuration);
-    generateQuery(query: string): Promise<string[]>;
+    generateQuery(query: string): Promise<string>;
 }
